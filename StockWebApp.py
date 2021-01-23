@@ -9,7 +9,7 @@ st.write("""
 """)
 
 image = Image.open(
-    "https://github.com/Bruce95317/stockwebapp/blob/master/logodesign1.png")
+    "logodesign1.png")
 st.image(image, use_column_width=True)
 
 
