@@ -45,13 +45,13 @@ def get_data(symbol, start, end):
 
     # Load the data
     if symbol.upper() == 'AMZN':
-        df = pd.read_csv('C:/Users/user/Desktop/stock webapp/AMZN.csv')
+        df = pd.read_csv('AMZN.csv')
     elif symbol.upper() == 'TSLA':
-        df = pd.read_csv("C:/Users/user/Desktop/stock webapp/TSLA.csv")
+        df = pd.read_csv('TSLA.csv")
     elif symbol.upper() == 'GOOG':
-        df = pd.read_csv("C:/Users/user/Desktop/stock webapp/GOOG.csv")
+        df = pd.read_csv("GOOG.csv")
     elif symbol.upper() == 'AAPL':
-        df = pd.read_csv("C:/Users/user/Desktop/stock webapp/AAPL.csv")
+        df = pd.read_csv("AAPL.csv")
     else:
         "Not Found"
 
