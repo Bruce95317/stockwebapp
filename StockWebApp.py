@@ -47,7 +47,7 @@ def get_data(symbol, start, end):
     if symbol.upper() == 'AMZN':
         df = pd.read_csv('AMZN.csv')
     elif symbol.upper() == 'TSLA':
-        df = pd.read_csv('TSLA.csv")
+        df = pd.read_csv("TSLA.csv")
     elif symbol.upper() == 'GOOG':
         df = pd.read_csv("GOOG.csv")
     elif symbol.upper() == 'AAPL':
