@@ -8,7 +8,12 @@ st.write("""
 **Stock price data** , date range from Jan 22,2020 to Jan 22, 2021
 """)
 
+<<<<<<< HEAD:StockWebApp1.py
 image = Image.open("C:/Users/user/Desktop/stock webapp/logodesign1.png")
+=======
+image = Image.open(
+    "logodesign1.png")
+>>>>>>> d751b09a8efe6a3554a45687cfdba976f6cdcda8:StockWebApp.py
 st.image(image, use_column_width=True)
 
 
@@ -44,13 +49,13 @@ def get_data(symbol, start, end):
 
     # Load the data
     if symbol.upper() == 'AMZN':
-        df = pd.read_csv('C:/Users/user/Desktop/stock webapp/AMZN.csv')
+        df = pd.read_csv('AMZN.csv')
     elif symbol.upper() == 'TSLA':
-        df = pd.read_csv("C:/Users/user/Desktop/stock webapp/TSLA.csv")
+        df = pd.read_csv("TSLA.csv")
     elif symbol.upper() == 'GOOG':
-        df = pd.read_csv("C:/Users/user/Desktop/stock webapp/GOOG.csv")
+        df = pd.read_csv("GOOG.csv")
     elif symbol.upper() == 'AAPL':
-        df = pd.read_csv("C:/Users/user/Desktop/stock webapp/AAPL.csv")
+        df = pd.read_csv("AAPL.csv")
     else:
         "Not Found"
 
