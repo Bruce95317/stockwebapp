@@ -8,8 +8,7 @@ st.write("""
 **Stock price data** , date range from Jan 22,2020 to Jan 22, 2021
 """)
 
-image = Image.open(
-    "https://github.com/Bruce95317/stockwebapp/blob/master/logodesign1.png")
+image = Image.open("C:/Users/user/Desktop/stock webapp/logodesign1.png")
 st.image(image, use_column_width=True)
 
 
