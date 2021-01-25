@@ -1,2 +1,2 @@
 run/
-StockWebApp1/
+StockWebApp/
