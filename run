@@ -1,0 +1,5 @@
+windows
+#
+stockweb\Scripts\activate.bat
+
+streamlit run " C:/Users/user/Desktop/stock webapp/StockWebApp.py"
