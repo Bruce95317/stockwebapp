@@ -8,12 +8,10 @@ st.write("""
 **Stock price data** , date range from Jan 22,2020 to Jan 22, 2021
 """)
 
-<<<<<<< HEAD:StockWebApp1.py
-image = Image.open("C:/Users/user/Desktop/stock webapp/logodesign1.png")
-=======
+
 image = Image.open(
     "logodesign1.png")
->>>>>>> d751b09a8efe6a3554a45687cfdba976f6cdcda8:StockWebApp.py
+
 st.image(image, use_column_width=True)
 
 
